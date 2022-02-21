@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body background="sunset-at-the-ocean-wallpaper.jpg">
+    <center>
+        <h1 class="btn btn-info" id="och">Facts About Oceans!</h1>
+        <h3 class="btn btn-primary" style="margin-right: 750px;">Southern Ocean</h3>      
+        <h3 class="btn btn-primary" style="float: right; margin-right: 200px;">Indian Ocean</h3>
+        
+     
+    </center>
+    <br>
+    <img src="indian Ocean.jpg" style="float: right;" data-toggle="modal" data-target="#IndianOcean">
+    <img src="Southern Ocean.jpg" data-toggle="modal" data-target="#SouthernOcean">
+    <br><br><br><br><br>
+    <center>
+    <h3 class="btn btn-primary" style="margin-right: 750px;">Pacific Ocean</h3>  
+    <h3 class="btn btn-primary">Atlantic Ocean</h3> 
+  </center>
+  <br>  
+    <img src="Pacific Ocean.jpg" data-toggle="modal" data-target="#PacificOcean">
+
+    
+    <img src="Atlantic Ocean.jpg" style="float: right;" data-toggle="modal" data-target="#AtlanticOcean">
+    <br><br><br>
+ <center>   <h3 class="btn btn-primary">Arctic Ocean</h3></center>
+ <br>
+<center>
+  
+    <img src="Arctic Ocean.jpg" data-toggle="modal" data-target="#ArcticOcean">  
+    <br><br><br><br><br><br><br><br>
+    <a href="river.html" class="btn btn-info">Rivers!</a>
+  </center>
+    <div id="SouthernOcean" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">&times;</button>
+              <h1 style="text-align: center;">Southern Ocean</h1>
+            </div>
+            <div class="modal-body">
+              The Southern Ocean's largest resident, the blue whale, can eat up to eight tons of its favorite food every day. ...
+              The Southern Ocean covers roughly 6% of the earth's surface. ...
+              On average, the Southern Ocean is approximately 11,000 feet deep.
+              The Southern Ocean, also known as the Antarctic Ocean, comprises the southernmost waters of the World Ocean, generally taken to be south of 60° S latitude and encircling Antarctica
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="IndianOcean" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h1 style="text-align: center;">Indian Ocean</h1>
+          </div>
+          <div class="modal-body">
+            The first bit of Indian Ocean information that gets hold of anyones attention is its size. And it does not just look huge, it is huge. Covering almost 20% of the earth’s total surface, the Indian Ocean makes a huge contribution to the water load of the world.Owing to its huge size, the Indian Ocean has a whooping volume of 292,131,000 cubic kilometres, with an average depth of 3890 meters.
+            A rather interesting bit of information on the Indian Ocean is its limited marine animal life which is due to a higher water temperature of this ocean. This ocean is the warmest ocean in the world and offers little scope to plankton and other species for growth.
+            What is probably one of the little known facts about the Indian Ocean is that it bears many tectonic plate boundaries including the Rodrigues Triple Point where African, Indo-Australian and Antartic continental plates merge.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="PacificOcean" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times;</button>
+          <h1 style="text-align: center;">Pacific Ocean</h1>
+        </div>
+        <div class="modal-body">
+          The Pacific Ocean is the largest and deepest ocean on Earth. It spans 60 million square miles from California to China, and in certain regions extends tens of thousands of feet below the surface of the water.
+          To get a sense of just how immense the Pacific Ocean is, you could put all of Earth's landmasses together, and the Pacific would still be larger.
+          The name Pacific is a version of pacify or peaceful. It was named by the explorer Ferdinand Magellan in 1520 as he sailed through a calm patch of water on the ocean. Despite its name, the Pacific is a vast body of water teeming with activity. Much of the ocean is still waiting to be explored, but human activities like industrial fishing, deep-sea mining, and fossil-fuel burning are already changing it in significant ways. The vast body of water is home to some of the most unique life forms on Earth and contains the deepest reaches known to humankind.
+          Here's a look at some key features of this great ocean, as well as issues affecting it.
+          
+          
+      </div>
+    </div>
+  </div>
+</div>
+<div id="AtlanticOcean" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h1 style="text-align: center;">Atlantic Ocean</h1>
+      </div>
+      <div class="modal-body">
+        For centuries the Atlantic Ocean has been a key avenue of trade and travel. Stretching from the Arctic Circle to Antarctica, the Atlantic Ocean is bordered by the Americas to the west and Europe and Africa to the east.
+        It's more than 41 million square miles, the second-largest ocean on Earth after the Pacific Ocean.
+        Scientists and geographers broadly separate the Atlantic in terms of north and south. The North Atlantic and South Atlantic each have distinct ocean currents that influence weather around the world.
+        
+        
+        
+        
+    </div>
+  </div>
+</div>
+</div>
+<div id="ArcticOcean" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h1 style="text-align: center;">Arctic Ocean</h1>
+      </div>
+      <div class="modal-body">
+        The Arctic Ocean is Earth's northernmost body of water. It encircles the Arctic, and flows beneath it. Most of the Arctic Ocean is covered by ice throughout the year—although that is starting to change as temperatures climb. Pale and stark on the surface, the Arctic Ocean is home to a stunning array of life.
+        Though it's the world's smallest ocean—spanning 6.1 million square miles—the Arctic is now receiving unprecedented international attention. Scientists are racing to understand how warming temperatures will alter Arctic Ocean waters—and by extension the rest of the climate—and world leaders are racing to control newly opening waters. 
+        The Arctic Ocean is warming faster than anywhere else on Earth and feeling the onslaught of climate change.
+        
+        
+    </div>
+  </div>
+</div>
+</div>
+
+
+</body>
+</html>

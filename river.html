@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body background="sunset-at-the-ocean-wallpaper.jpg">
+    <center>
+        <h1 class="btn btn-info" id="och">Facts About Rivers!</h1>
+        <h3 class="btn btn-primary" style="margin-right: 750px;">Nile River</h3>      
+        <h3 class="btn btn-primary" style="float: right; margin-right: 200px;">Amazon River</h3>
+        
+     
+    </center>
+    <br>
+    <img src="Amazon River.jpg" style="float: right;" data-toggle="modal" data-target="#AmazonRiver">
+    <img src="Nile river.jpg" data-toggle="modal" data-target="#NileRiver">
+    <br><br><br><br><br>
+    <center>
+    <h3 class="btn btn-primary" style="margin-right: 750px;">Ganges River</h3>  
+    <h3 class="btn btn-primary">Mississippi River</h3> 
+  </center>
+  <br>  
+    <img src="Ganga river.jpg" data-toggle="modal" data-target="#GangesRiver">
+
+    
+    <img src="mississippi river.jpg" style="float: right;" data-toggle="modal" data-target="#MississippiRiver">
+    <br><br><br>
+ <center>   <h3 class="btn btn-primary">Yangtze River</h3></center>
+ <br>
+<center>
+  
+    <img src="Yangtze River.jpg" data-toggle="modal" data-target="#YangtzeRiver">  
+  </center>
+    <div id="NileRiver" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">&times;</button>
+              <h1 style="text-align: center;">Nile River</h1>
+            </div>
+            <div class="modal-body">
+                The Nile flows north for about 6,650 kilometers (4,132 miles), from the African Great Lakes through the Sahara desert before emptying into the Mediterranean Sea. It goes through 11 countries — Tanzania, Uganda, Rwanda, Burundi, the Democratic Republic of the Congo, Kenya, Ethiopia, Eritrea, South Sudan, Sudan and Egypt — and drains 3.3 million square kilometers (1.3 million miles), or about 10% of the African continent.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="AmazonRiver" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h1 style="text-align: center;">Amazon River</h1>
+          </div>
+          <div class="modal-body">
+            After starting its seemingly slow and subtle voyage in the highlands of Peru, the Amazon River traverses through Ecuador, Colombia and Venezuela before entering Brazil and flowing out of its Atlantic coast. However, its tributaries also flood the Amazon basin in Bolivia in the south, home to the Madidi National Park (one of the Amazon’s largest protected reserves) as well as Suriname, Guyana and French Guiana. Given each country’s distinctive tourist infrastructure, some spots are simply better and more rewarding to visit than others, depending on whether you’re after a land-based Amazon tour or Amazon River cruise. The most established visiting hot-spots are in Peru (Iquitos and Puerto Maldonado), Ecuador (Coca), Brazil (Manaus) and Bolivia (Rurrenabaque).
+            It’s an astonishing percentage when one thinks about it: one-fifth of the fresh water that flows into our earth’s seas flow into the Atlantic at the Amazon River Delta in northern Brazil. This is the largest river delta on our planet (discharging more freshwater than the following seven largest rivers combined) creating a muddy patch of salty-vs-fresh water that covers an area of 2.5 million sq km!
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="GangesRiver" class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button class="close" data-dismiss="modal">&times;</button>
+          <h1 style="text-align: center;">Ganges (Ganga) River </h1>
+        </div>
+        <div class="modal-body">
+            Ganges River, Hindi Ganga, great river of the plains of the northern Indian subcontinent. Although officially as well as popularly called the Ganga in Hindi and in other Indian languages, internationally it is known by its conventional name, the Ganges. From time immemorial it has been the holy river of Hinduism. For most of its course it is a wide and sluggish stream, flowing through one of the most fertile and densely populated regions in the world. Despite its importance, its length of 1,560 miles (2,510 km) is relatively short compared with the other great rivers of Asia or of the world.
+          
+      </div>
+    </div>
+  </div>
+</div>
+<div id="MississippiRiver" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h1 style="text-align: center;">Mississippi River</h1>
+      </div>
+      <div class="modal-body">
+        Encompassing over 1.2 million square miles, the Mississippi River is the third-largest river basin in the world. The Mississippi is only out-ranked by the Amazon and Congo river basins. The river basin collects water from 31 states. The Mississippi River watershed covers over 40% of the continental United States.
+        The Mississippi River's widest point is where the river forms Lake Winnibigoshish, near Bena Minnesota. At its widest point, the Mississippi's Lake Winnibigoshish is over 11 miles across. Within the river's shipping channel, the widest point is Lake Pepin, where the channel is about 2 miles wide.
+        
+        
+    </div>
+  </div>
+</div>
+</div>
+<div id="YangtzeRiver" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button class="close" data-dismiss="modal">&times;</button>
+        <h1 style="text-align: center;">Yangtze River</h1>
+      </div>
+      <div class="modal-body">
+        Known as the Chang Jiang in China, Yangtze River is Asia's longest river and the third longest river in the world after River Nile in Africa and River Amazon in the Amazon Basin. Amazingly, the River Yangtze delta produces about 20% of the People's Republic of China GDP. Below are a few interesting facts about Yangtze River.
+
+        1. The Drainage Basin of the Yangtze River covers 20 % of the total landmass of the People's Republic of China.
+        
+        2. The Yangtze River is the busiest river in the world with cruise ships, ferries and transport barges crisscrossing the river.
+        
+        3. The Three Gorges Dam on the Yangtze River is the biggest Hydro-electric Dam in the world
+        
+        4. The Yangtze River and its tributaries have over 50 bridges, all of which were built after 1955. Before this, people used to cross the river using ferries.
+        
+        5. The Yangtze River has more than 700 hundred tributaries, each forming an important aspect of the Chinese economy.
+        
+    </div>
+  </div>
+</div>
+</div>
+
+
+</body>
+</html>
